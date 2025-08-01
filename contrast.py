@@ -7,7 +7,7 @@ def contrast_stretch(img):
     stretched = (img - rmin) * ((b - a) / (rmax - rmin)) + a
     return np.uint8(stretched)
 
-img = cv2.imread("rah.jpg", 0)
+img = cv2.imread("dog.png", 0)
 cv2.imshow("Original", img)
 cv2.waitKey(0)
 stretched_img = contrast_stretch(img)
