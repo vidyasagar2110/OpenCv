@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image=cv2.imread('taj.jpg')
+image=cv2.imread('rah.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 k=np.array([[-1,0,1],[-2,0,2],[-1,0,1]])

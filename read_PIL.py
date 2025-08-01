@@ -1,3 +1,3 @@
 from PIL import Image
-img=Image.open('cat.jpg')
+img=Image.open('dog.png')
 img.show()
