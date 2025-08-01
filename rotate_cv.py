@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("rider.jpg")
+img = cv2.imread("bike.png")  #img = cv2.imread('Cat.jpeg', 0) grey scale
 
 
 # dividing height and width by 2 to get the center of the image

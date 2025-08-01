@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("rider.jpg")  #img = cv2.imread('Cat.jpeg', 0) grey scale 
+image = cv2.imread("bike.png")  #img = cv2.imread('Cat.jpeg', 0) grey scale 
 rows, cols = image.shape[:2]
 # Shear matrix (x-shear)
 shear_matrix = np.float32([[1, 0.5, 0],

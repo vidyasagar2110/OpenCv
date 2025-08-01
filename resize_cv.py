@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("heman.jpg")
+img = cv2.imread("p.png")
 if img is None:
     print("Error: messi.jpg not found or cannot be opened.")
     exit()
