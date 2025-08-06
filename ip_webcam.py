@@ -5,7 +5,7 @@ url = "http://10.67.98.45:8080/video"  # Replace with your IP webcam URL
 cp = cv2.VideoCapture(url)
 
 # Load and resize hero image
-hero = cv2.imread("hero.jpg")
+hero = cv2.imread("p.jpg")
 if hero is None:
     print("Error: hero.jpg not found.")
     exit()
