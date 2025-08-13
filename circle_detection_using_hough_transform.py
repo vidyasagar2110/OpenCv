@@ -4,7 +4,7 @@ import cv2 as cv
 import numpy as np
 def main(argv):
 
-    default_file = 'circles.jpg'
+    default_file = 'rain.jpg'
     filename = argv[0] if len(argv) > 0 else default_file
     # Loads an image
     src = cv.imread(default_file, cv.IMREAD_COLOR)
