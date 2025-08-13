@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Read grayscale image
-img = cv2.imread("rider.jpg",0)
+img = cv2.imread("p.png",0)
 
 # Add 20 to each pixel but cap at 255
 img1 = np.clip(img + 20, 0, 255).astype(np.uint8)
